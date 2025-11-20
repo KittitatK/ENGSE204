@@ -43,10 +43,10 @@ int main(){
 
  void isSwap(int *ptr1 ,int *ptr2){
     *ptr1 = *ptr1 + *ptr2; //19 + 20 =  39
-   printf(" | %d ",*ptr1);
+   printf(" | %d ",ptr1);
     *ptr2 = *ptr1 - *ptr2; //39 - 20 = 19
-   printf("%d ",*ptr2);
+   printf("%d ",ptr2);
     *ptr1 = *ptr1 - *ptr2; //39 -19 = 20   --| 19 , 20
-   printf("%d |",*ptr1);
+   printf("%d |",ptr1);
 
  }

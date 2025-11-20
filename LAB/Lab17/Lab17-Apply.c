@@ -126,7 +126,7 @@ int main() {
     return 0;
 }
 
-// ✅ เพิ่มหนังสือ
+//  เพิ่มหนังสือ
 void addBook(Book books[], int *count) {
     if (*count >= MAX_BOOKS) {
         printf("Library is full! Cannot add more books.\n");
@@ -152,7 +152,7 @@ void addBook(Book books[], int *count) {
     printf("Book added successfully!\n");
 }
 
-// ✅ ค้นหาหนังสือตามชื่อ
+//  ค้นหาหนังสือตามชื่อ
 void searchBook(Book books[], int count, char title[]) {
     for (int i = 0; i < count; i++) {
         if (strcmp(books[i].title, title) == 0) {
@@ -166,7 +166,7 @@ void searchBook(Book books[], int count, char title[]) {
     printf("Book not found.\n");
 }
 
-// ✅ แสดงหนังสือทั้งหมด
+//  แสดงหนังสือทั้งหมด
 void displayBooks(Book books[], int count) {
     if (count == 0) {
         printf("No books in the library.\n");
