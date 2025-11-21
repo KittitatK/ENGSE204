@@ -25,9 +25,9 @@ public class Lab0111 {
         System.out.println("How Many Number Do You Want To Input");
         int n = input.nextInt();
 
-        int[] arr = new int[n];                // ✔️ สร้าง Array ขนาด N
+        int[] arr = new int[n];            
 
-        for(int i = 0; i < n; i++){            // ✔️ รับค่าลง Array
+        for(int i = 0; i < n; i++){           
             System.out.println("Enter number " + (i+1));
             arr[i] = input.nextInt();
         }
