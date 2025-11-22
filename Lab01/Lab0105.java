@@ -1,16 +1,16 @@
 package Lab01;
-import java.util.Scanner;//เรียกใช้ Util เพื่อให้รับค่าอ่านค่า
+import java.util.Scanner;
 
 public class Lab0105 {
     public static void main(String[] menm){
-        Scanner input = new Scanner(System.in);//นำคำสั่งในการอ่านค่าเข้า
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("Menu Number");//ชื่อโปรแกรม
+        System.out.println("Menu Number");
 
         System.out.println("Enter Number ( 1 - 4 ) : ");
-        int num = input.nextInt();//ให้ผู้ใช้กรอกค่า
+        int num = input.nextInt();
 
-        switch(num){//Start Switch case //แสดงผลตามเลขที่ผู้ใช้กรอกกรณีกรอกเลขอื่นจะขึ้นข้อความerror
+        switch(num){
             case 1:
                 System.out.println("Americano");
                 break;
@@ -30,7 +30,7 @@ public class Lab0105 {
              default:
                 System.out.println("Please try again");
 
-        }//end Switch Case
+        }
 
         input.close();//ปิดScanner
     }
