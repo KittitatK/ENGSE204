@@ -2,7 +2,7 @@ package Lab01;
 import java.util.Scanner;
 
 public class Lab0108 {
-    public static void main(String[] args){
+    public static void main(String[] fima){
         Scanner input = new Scanner(System.in);
 
         int i,m;

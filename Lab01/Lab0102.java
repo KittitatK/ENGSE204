@@ -3,7 +3,7 @@ import java.util.Scanner; //เรียกใช้ Util เพื่อให�
 
 
 public class Lab0102 {
-    public static void main(String[] args) {
+    public static void main(String[] sumi) {
         Scanner input = new Scanner(System.in);//นำคำสั่งในการอ่านค่าเข้า
 
         System.out.println("Rectangle calculate (Width x Height)");//ตั้งชื่อโปรแกรม

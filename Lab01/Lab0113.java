@@ -2,7 +2,7 @@ package Lab01;
 import java.util.Scanner;
 
 public class Lab0113 {
-    public static void main(String[] args){
+    public static void main(String[] monidas){
         Scanner input = new Scanner(System.in);
 
         System.out.println("Monitoring Dashboard");
@@ -36,7 +36,7 @@ public class Lab0113 {
             }
         }
 
-        System.out.println("Online Servers = "+ count + "Unit(s)");
+        System.out.println("Online Servers = "+ count + " Unit(s)");
 
         input.close();
     }

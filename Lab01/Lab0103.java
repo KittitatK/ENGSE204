@@ -2,7 +2,7 @@ package Lab01;
 import java.util.Scanner;//เรียกใช้ Util เพื่อให้รับค่าอ่านค่า
 
 public class Lab0103 {
-    public static void main(String[] args) {
+    public static void main(String[] evod) {
         Scanner input = new Scanner(System.in);//นำคำสั่งในการอ่านค่าเข้า
 
         System.out.println("Check  Even , Odd number");//ชื่อโปรแกรม

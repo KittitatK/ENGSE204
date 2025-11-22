@@ -20,7 +20,7 @@ public class Lab0110 {
     }
 
 
-    public static void main(String[] args){
+    public static void main(String[] eren){
         Scanner input = new Scanner(System.in);
 
         System.out.println("Find The Area (W x H)");

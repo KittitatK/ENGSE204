@@ -2,7 +2,7 @@ package Lab01;
 import java.util.Scanner;//นำค่า utilเข้า
 
 public class Lab0107 {
-    public static void main(String[] args){
+    public static void main(String[] calus){
         Scanner input = new Scanner(System.in);//เรียกใชScanner เพื่อรับค่าผู้ใช้
 
         int sum = 0;

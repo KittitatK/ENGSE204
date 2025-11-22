@@ -3,7 +3,7 @@ import java.util.Scanner; //เรียกใช้ Util เพื่อให�
 
 
 public class Lab0101 {
-    public static void main(String[] args) {
+    public static void main(String[] plus) {
         Scanner input = new Scanner(System.in); //นำคำสั่งในการอ่านค่าเข้า
 
         System.out.println("calculate integer (x + y)");//ชื่อโปรแกรม
