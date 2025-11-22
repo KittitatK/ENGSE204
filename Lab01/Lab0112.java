@@ -43,10 +43,3 @@ public class Lab0112 {
     }
     
 }
-
-
- /*if ( key == Id[i]){
-            System.out.printf("In Stock %d Piece",stock[i]);
-        }else{
-            System.out.printf("Product %d not found", key);
-        }*/
