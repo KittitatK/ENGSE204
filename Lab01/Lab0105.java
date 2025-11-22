@@ -32,7 +32,7 @@ public class Lab0105 {
 
         }
 
-        input.close();//ปิดScanner
+        input.close();
     }
     
-}//end class
+}
