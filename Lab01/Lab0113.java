@@ -1,3 +1,4 @@
+
 package Lab01;
 import java.util.Scanner;
 
@@ -40,7 +41,4 @@ public class Lab0113 {
 
         input.close();
     }
-    
-
-    
 }
