@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lab0113",
+            "request": "launch",
+            "mainClass": "Lab01.Lab0113",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Lab0112",
+            "request": "launch",
+            "mainClass": "Lab01.Lab0112",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
             "name": "Lab0111",
             "request": "launch",
             "mainClass": "Lab01.Lab0111",

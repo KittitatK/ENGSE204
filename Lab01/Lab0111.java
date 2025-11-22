@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Lab0111 {
 
-    
+    //ฟังก์ชันหาผลรวม
     public static int sumArray(int[] numbers){
         Scanner input = new Scanner(System.in);
 
@@ -16,7 +16,7 @@ public class Lab0111 {
         return sum;
     }
 
-
+    //ตัวรันโปรแกรม
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
@@ -25,9 +25,9 @@ public class Lab0111 {
         System.out.println("How Many Number Do You Want To Input");
         int n = input.nextInt();
 
-        int[] arr = new int[n];                // ✔️ สร้าง Array ขนาด N
+        int[] arr = new int[n];               
 
-        for(int i = 0; i < n; i++){            // ✔️ รับค่าลง Array
+        for(int i = 0; i < n; i++){            
             System.out.println("Enter number " + (i+1));
             arr[i] = input.nextInt();
         }
