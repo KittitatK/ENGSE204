@@ -17,10 +17,10 @@ public class Lab0107 {
             j = input.nextInt();
             sum += j;
             
-        }//end for
+        }
         
         System.out.printf("Sum = %d", sum );
 
         input.close();
     }
-}//end class
+}
