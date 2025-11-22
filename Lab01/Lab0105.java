@@ -10,26 +10,20 @@ public class Lab0105 {
         System.out.println("Enter Number ( 1 - 4 ) : ");
         int num = input.nextInt();
 
-        switch(num){
-            case 1:
-                System.out.println("Americano");
-                break;
-
-            case 2:
-                System.out.println("Latte");
-                break;
-
-            case 3:
-                System.out.println("Espresso");
-                break;
-            
-            case 4:
-                System.out.println("Mocha");
-                break;
-
-             default:
-                System.out.println("Please try again");
-
+         if(num == 1){
+            System.out.println("Americano"); 
+        }
+        else if(num == 2){
+            System.out.println("Latte");
+        }
+        else if(num == 3){
+            System.out.println("Espresso");
+        }
+        else if(num == 4){
+            System.out.println("Mocha");
+        }
+        else{
+            System.out.println("Please try again");
         }
 
         input.close();
