@@ -1,16 +1,16 @@
 package Lab01;
-import java.util.Scanner; //เรียกใช้ Util เพื่อให้รับค่าอ่านค่า
+import java.util.Scanner; 
 
 public class Lab0104 {
     public static void main(String[] gpd){
-        Scanner input = new Scanner(System.in);//นำคำสั่งในการอ่านค่าเข้า
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("Calculate Score (0-100)");//ชื่อโปรแกรม
+        System.out.println("Calculate Score (0-100)");
 
         System.out.println("Enter Score (0-100)");
-        int score = input.nextInt();//ให้กรอกคะแนน
+        int score = input.nextInt();
 
-        if ( score < 0 || score > 100){//คะแนนเกินที่กำหนดก็จะขึ้น error
+        if ( score < 0 || score > 100){
             System.out.println("Error");
 
         }else if ( score >= 80 && score <= 100){
@@ -30,6 +30,6 @@ public class Lab0104 {
 
         }
 
-        input.close();//ปิดScanner
+        input.close();
     }
-}//end class
+}
