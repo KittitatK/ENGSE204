@@ -98,7 +98,8 @@ public class Lab0114 {
 
         
         System.out.printf("Total Mines in map = %d\n", tlm);
-    
+
+        input.clsoe();
     }
     
 }
