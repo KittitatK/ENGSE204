@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lab0114",
+            "request": "launch",
+            "mainClass": "Lab01.Lab0114",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Lab0107",
+            "request": "launch",
+            "mainClass": "Lab01.Lab0107",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Lab0106",
+            "request": "launch",
+            "mainClass": "Lab01.Lab0106",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Lab0105",
+            "request": "launch",
+            "mainClass": "Lab01.Lab0105",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Lab0104",
+            "request": "launch",
+            "mainClass": "Lab01.Lab0104",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Lab0103",
+            "request": "launch",
+            "mainClass": "Lab01.Lab0103",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Lab0102",
+            "request": "launch",
+            "mainClass": "Lab01.Lab0102",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Lab0101",
+            "request": "launch",
+            "mainClass": "Lab01.Lab0101",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
             "name": "Lab0113",
             "request": "launch",
             "mainClass": "Lab01.Lab0113",

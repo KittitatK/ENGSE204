@@ -13,19 +13,19 @@ public class Lab0104 {
         if ( score < 0 || score > 100){//คะแนนเกินที่กำหนดก็จะขึ้น error
             System.out.println("Error");
 
-        }else if ( score >= 80 || score <= 100){
+        }else if ( score >= 80 && score <= 100){
             System.out.println("A");
 
-        }else if ( score >= 70 || score <= 79){
+        }else if ( score >= 70 && score <= 79){
             System.out.println("B");
 
-        }else if ( score >= 60 || score <= 69){
+        }else if ( score >= 60 && score <= 69){
             System.out.println("C");
 
-        }else if ( score >= 50 || score <= 59){
+        }else if ( score >= 50 && score <= 59){
             System.out.println("D");
 
-        }else if ( score >= 0 || score <= 49){
+        }else if ( score >= 0 && score <= 49){
             System.out.println("F");
 
         }

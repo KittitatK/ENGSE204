@@ -32,3 +32,4 @@ public class Lab0110 {
         input.close();
     }
 }
+
