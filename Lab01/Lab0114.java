@@ -36,6 +36,11 @@ public class Lab0114 {
         int TC = input.nextInt() ;
         int mc = 0;
 
+        if(TR < 0 || TR >= R  || TC < 0 || TC >= C){
+            System.out.println("1");
+            return;
+        }
+
         if (target[TR][TC] == '*') {
             System.out.println("Mine");
              
