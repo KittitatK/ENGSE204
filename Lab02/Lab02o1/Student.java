@@ -1,4 +1,4 @@
-package Lab02.Lab02o1;
+package Lab02o1;
 
 public class Student {
     private String studentID;   
