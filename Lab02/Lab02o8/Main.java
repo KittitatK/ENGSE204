@@ -14,11 +14,11 @@ public class Main {
         double tem = input.nextDouble();
 
         if (type.equals("C_TO_F") || type.equals("C_To_F") || type.equals("C_to_F") || type.equals("c_to_f")){
-            System.out.println("Celsius = " + TempConverter.CtoF(tem));
+            System.out.println("Fahrenheit = " + TempConverter.CtoF(tem));
         }
 
         if (type.equals("F_TO_C") || type.equals("F_To_C") || type.equals("F_to_C") || type.equals("f_to_c")){
-            System.out.println("Fahrenheit = " + TempConverter.FtoC(tem));
+            System.out.println("Celsius = " + TempConverter.FtoC(tem));
         }
 
         input.close();
