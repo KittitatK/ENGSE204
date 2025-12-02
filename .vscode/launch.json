@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lab02o12.Main",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lab02o11.Main",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lab02o10.Main",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lab02o9.Main",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lab02o8.Main",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lab02o7.Main",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lab02o6.Main",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lab02o5.Main",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lab02o4.Main",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lab02o3.Main",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test.test",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Lab02o2.Main",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "lab02o2.Main",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Lab0201",
+            "request": "launch",
+            "mainClass": "Lab02o1.Lab0201",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
+            "name": "Lab0201",
+            "request": "launch",
+            "mainClass": "Lab02.Lab0201",
+            "projectName": "ENGSE204_e50f9cf5"
+        },
+        {
+            "type": "java",
             "name": "Lab0114",
             "request": "launch",
             "mainClass": "Lab01.Lab0114",

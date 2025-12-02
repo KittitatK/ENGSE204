@@ -47,49 +47,49 @@ public class Lab0114 {
         }else{
             if (TR - 1 >= 0 && TC - 1 >= 0) {
                 if (target[TR-1][TC-1] == '*'){ 
-                    mc++;
+                    mc++;//above L
                 }
             }
 
             if (TR - 1 >= 0) {
                 if (target[TR-1][TC] == '*'){
-                    mc++;
+                    mc++;//above M
                 }
             }
 
             if (TR - 1 >= 0 && TC + 1 < C) {
                 if (target[TR-1][TC+1] == '*'){
-                    mc++;
+                    mc++;//above R
                 }
             }
 
             if (TC - 1 >= 0) {
                 if (target[TR][TC-1] == '*'){
-                    mc++;
+                    mc++;// L
                 }
             }
 
             if (TC + 1 < C) {
                 if (target[TR][TC+1] == '*'){
-                    mc++;
+                    mc++;// R
                 }
             }
 
             if (TR + 1 < R && TC - 1 >= 0) {
                 if (target[TR+1][TC-1] == '*'){
-                    mc++;
+                    mc++;// down L
                 }
             }
 
             if (TR + 1 < R) {
                 if (target[TR+1][TC] == '*'){
-                    mc++;
+                    mc++;//down M
                 }
             }
 
             if (TR + 1 < R && TC + 1 < C) {
                 if (target[TR+1][TC+1] == '*'){
-                    mc++;
+                    mc++;//down R 
                 }
             }
 
@@ -99,6 +99,7 @@ public class Lab0114 {
         
         System.out.printf("Total Mines in map = %d\n", tlm);
     
+        input.close();
     }
     
 }
