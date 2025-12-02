@@ -10,10 +10,4 @@ public class Student {
             this.name = n ;
             count++ ;
         }
-
-    /*public int getCount() {
-        return count;
-
-    }*/
-
 }
